@@ -39,3 +39,11 @@ provider "aws" {
     region = "${var.AWS_REGION}"
 }
 ```
+
+Open the terminal from the above files location and execute below commands.
+
+```terraform
+terraform init
+terraform plan
+terraform apply
+```
