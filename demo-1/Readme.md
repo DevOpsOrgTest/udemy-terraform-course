@@ -3,7 +3,7 @@
 
 Spinning up instance with the AWS account and secret id.
 
-##### Create instance.tf file with below content
+##### Create `instance.tf` file with below content
 
 ```terraform 
 resource "aws_instance" "example" {
@@ -12,7 +12,7 @@ resource "aws_instance" "example" {
 }
 ```
 
-##### Create provider.tf file with below content
+##### Create `provider.tf` file with below content
 
 ```terraform
 provider "aws" {
