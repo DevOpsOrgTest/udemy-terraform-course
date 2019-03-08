@@ -6,8 +6,12 @@ Spinning up instance with the AWS account and secret id.
 ##### Create `vars.tf` file with below content
 
 ```terraform
-variable "AWS_ACCESS_KEY" {}
-variable "AWS_SECRET_KEY" {}
+variable "AWS_ACCESS_KEY" {
+default = "XXXXX"
+}
+variable "AWS_SECRET_KEY" {
+default = "XXXXX"
+}
 variable "AWS_REGION" {
   default = "eu-west-1"
 }
@@ -20,6 +24,9 @@ variable "AMIS" {
   }
 }
 ```
+
+NOTE: default = "XXXXX" needs to be replaced with your AWS account ACCESS and SECRET keys.
+
 
 ##### Create `instance.tf` file with below content
 
