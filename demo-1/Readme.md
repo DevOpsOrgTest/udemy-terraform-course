@@ -25,8 +25,8 @@ variable "AMIS" {
 }
 ```
 
-NOTE: 
-  default = "XXXXX" values need to be replaced with your AWS account ACCESS and SECRET keys.
+`NOTE: 
+  default = "XXXXX" values need to be replaced with your AWS account ACCESS and SECRET keys.`
 
 
 ##### Create `instance.tf` file with below content
